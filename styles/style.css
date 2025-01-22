@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(244, 244, 244);
+}
+
+header, main{
+  padding: 0 9.79vw;
+  margin: 0;
+}
+
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+
+.quicksand-regular {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.68vw;
+  height: 3.47vw;
+  padding: 0.69vw 0.69vw;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 0.83vw;
+  font-size: 1.39vw;
+}
+
+.bg-color-black {
+  background-color: black;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-color2 {
+  color: #808080;
+}
+
+/* Navbar styles */
+.navbar {
+  padding-top: 1.39vw;
+  padding-bottom: 1.39vw;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand>h2 {
+  margin-bottom: 0.97vw;
+  margin-top: 1.25vw;
+  font-size: 2.22vw;
+  font-weight: bold;
+}
+
+.brand {
+  gap: 0.76vw;
+  align-items: center;
+}
+
+.brand img {
+  width: 4.31vw;
+  height: 4.31vw;
+}
+
+.nav-menu {
+  padding: 1.11vw 0;
+}
+
+.nav-menu-ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5vw;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav-menu-ul a {
+  text-decoration: none;
+}
+
+.menu-item1,
+.menu-item2,
+.menu-item3,
+.menu-item4 {
+  font-size: 1.39vw;
+}
+
+.menu-item1 {
+  color: red;
+}
+
+.menu-item2 {
+  color: blue;
+}
+
+.menu-item3 {
+  color: peru;
+}
+
+.menu-item4 {
+  color: green;
+}
+
+
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+
+
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+/* Banner styles start */
+.banner {
+  padding: 0;
+  margin: 0;
+  gap: 3.47vw;
+  height: auto;
+  justify-content: space-between;
+}
+
+.banner-content {
+  /* height: 100%;
+  width: 43.17%; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+  width: 44.4vw;
+  gap: 1.67vw;
+}
+
+.banner-title,
+.banner-description {
+  margin: 0;
+}
+
+.banner-title {
+  /* font-size: 2.75rem; */
+  font-weight: 700;
+  font-size: 3.89vw;
+  line-height: 4.23vw;
+}
+
+.banner-description {
+  font-size: 1.39vw;
+}
+
+.Empowering {
+  color: orange;
+}
+
+.students {
+  color: black;
+}
+
+.vision {
+  color: skyblue;
+}
+
+.Enroll-now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.68vw;
+  height: 50px;
+  padding: 0.625vw 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.banner-image {
+  width: 32.5vw;
+  height: auto;
+}
+/* styles for curriculum section */
+.curriculum{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 61.04vw;
+  width: 100%;
+  margin: 0;
+  padding: 4.17vw 0;
+  gap: 5.56vw;
+
+}
+/* .container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+} */
+.curriculum-title {
+  font-size: 3.19vw;
+  color: black;
+    font-weight: bold
+}
+.cards {
+  display: flex;
+  gap: 1.96vw;
+  height: 33.40vw;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid skyeblue;
+  /* width: 25.54vw; */
+  padding-right: 2.85vw;
+  padding-left: 2.85vw;
+  padding-top:3.67vw;
+  padding-bottom:3.73vw;
+  text-align: center;
+  gap: 2.361vw;
+}
+.bg1{
+  background: linear-gradient(#E0F7FA 20%, white 40%);
+
+}
+.bg2{
+  background: linear-gradient(#FFF9C4 20%, white 40%);
+}
+.bg3{
+  background: linear-gradient(#E1BEE7 20%, white 40%);
+}
+.card img {
+  width: 9vw;
+  height: 9vw;
+}
+.card h3 {
+  font-size: 1.67vw;
+  margin: 0;
+}
+.card p {
+  font-size: 1.05vw;
+  line-height: 1.97vw;
+  color: #808080;
+  margin: 0;
+}
+.card a {
+  display: inline-block;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 1.05vw;
+}
+.navigation {
+  margin: 20px 0;
+}
+.navigation button {
+  background-color: #FFCC00;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* Styles for small devices */
+@media screen and (max-width:576px) {
+  body {
+    background-color: white;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+    height: 7.69vw;
+  }
+
+  .nav-menu-ul {
+    display: none;
+  }
+
+  .brand h2 {
+    display: none;
+  }
+
+  .navbar .btn-primary {
+    display: none;
+  }
+
+  .brand img {
+    height: 11.80vw;
+    width: 11.80vw;
+  }
+
+  header {
+    border-bottom: 0.12vw solid orange;
+    height: 11.80vw;
+    padding: 3.07vw 4.1vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+/* banner section starts */
+  main {
+    margin-top: 2.05vw;
+    padding:  0 4.10vw;
+  }
+  .banner-container{
+     margin-bottom: 5.13vw;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 15.38vw;
+  }
+  .banner-content{
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    gap: 4.62vw;
+  }
+  .banner-image{
+    height: 105.90vw;
+    width: 86.30vw;
+    margin: 5.13vw 2.62vw;
+  }
+  .banner-title{
+    font-size: 8.21vw;
+    line-height: 10.26vw;
+  }
+  .banner-description{
+    font-size: 3.59vw;
+  }
+  .btn-primary{
+    width: 131px;
+    height: 42px;
+    padding: 6px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  /* curriculum section starts */
+  .curriculum{
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0.51vw;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 5.12vw;
+
+
+  }
+  .curriculum-title{
+    font-size: 6.67vw;
+    margin-bottom:0.51vw;
+  }
+  .cards{
+    flex-direction: column;
+    gap: 4.24vw;
+    padding: 0;
+    width:  100%;
+    align-items: center;  }
+  .card{
+    width: 95%;
+    height: 100.38vw;
+    /* padding: 9.23vw 7.17vw; */
+    border: 0.25px solid black;
+  }
+  .card img{
+    width: 23.74vw;
+    height: 23.74vw;
+    gap: 5.64vw;
+  }
+  .card h3{
+    font-size: 4.26vw;
+    font-weight: bold;
+  }
+  .card p{
+    font-size: 2.62vw;
+    line-height: 4.92vw;
+  }
+  .card a{
+    font-size: 2.62vw;
+    line-height: 4.92vw;
+  }
+  .navigation{
+    display: none;
+  }
+}

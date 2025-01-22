@@ -281,6 +281,15 @@ header, main{
   font-size: 1.5em;
   cursor: pointer;
 }
+/* styles for stories */
+.Stories{
+  display: flex;
+  flex-direction: column;
+  padding:  0 9.72vw;
+  gap: 5.56vw;
+  align-items: center;
+  justify-content: center;
+}
 /* Styles for small devices */
 @media screen and (max-width:576px) {
   body {
@@ -408,4 +417,5 @@ header, main{
   .navigation{
     display: none;
   }
+  
 }

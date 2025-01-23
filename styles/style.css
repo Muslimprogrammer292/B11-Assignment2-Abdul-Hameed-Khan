@@ -5,7 +5,7 @@ body {
   background-color: rgb(244, 244, 244);
 }
 
-header, main{
+header, main, footer{
   padding: 0 9.79vw;
   margin: 0;
 }
@@ -289,6 +289,74 @@ header, main{
   gap: 5.56vw;
   align-items: center;
   justify-content: center;
+}
+/* styles for footer */
+footer{
+  background-color: #01ACFD ;
+  display: flex;
+  justify-content: space-between;
+  height: 10.04vw;
+  padding-top: 8.54vw;
+  padding-bottom: 12.43vw;
+}
+.item1{
+  flex-direction: column;
+  gap: 2.45vw;
+  margin-right: 11vw;
+}
+.item1 img{
+  height: 82px;
+}
+.item1 p{
+  color: white;
+}
+.item2 h5{
+  margin-bottom: 2.22vw;
+  color: white;
+  margin-top: 0;
+}
+.item2 ol{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.39vw;
+}
+.item2 h5{
+  color: white;
+  font-size: 1.81vw;
+}
+.item2 li{
+  color: white;
+  font-size: 1.39vw;
+}
+.kids-educ{
+  display: flex;
+  gap: 3.14vw;
+}
+.kids-educ h2{
+  color: white;
+  font-size: 2.93vw;
+  font-weight: bold;
+}
+.kids-educ p{
+  color: white;
+  font-size: 1.39vw;
+}
+.item3{
+  display: flex;
+  flex-direction: column;
+  gap: 2.27vw;
+}
+.item3 h5{
+  color: white;
+  font-size: 1.81vw;
+}
+.social-medias{
+  display: flex;
+  gap: 0.7vw;
+}
+.social-medias img{
+  width: 2.78vw;
 }
 /* Styles for small devices */
 @media screen and (max-width:576px) {
